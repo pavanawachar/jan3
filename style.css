@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+ #navbar{
+    
+   padding:10px ;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background-color: white;
+
+ }
+ #nav1{
+    display: flex;
+    justify-content: center;
+    
+ }
+ #nav1>h5,span{
+    padding-right: 45px;
+ }
+
+ #nav2{
+
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+   
+ }
+ #nav2>button{
+   margin-left: 35px;
+   border-radius: 10px;
+ }
+ #nav2>input{
+    padding-left: 15px;
+    border: 2px solid rgb(190, 187, 187);
+    border-radius: 10px;
+
+ }
+ .hero_section{
+    width: 85vw;
+    margin: auto;
+ }
+ .scolleable_div{
+    white-space: nowrap ;
+  overflow: hidden;
+  overflow-x: scroll;
+ }
+ .scrollable_div > img {
+    
+    display: inline-block;
+  }
+ 
+ 
